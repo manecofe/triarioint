@@ -1,0 +1,44 @@
+.container-fluid{
+    height: 500px;
+    background-color: rgb(52, 52, 165);
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-right: 10%;
+    display: flex;
+    justify-content:space-between;
+    align-items: stretch;
+}
+.container-fluid div{
+    color: white;
+    display: block;
+    align-items: stretch;
+}
+
+.container-fluid div *{
+    margin: 25px;
+    max-width: 200px;
+    text-decoration: underline;
+}
+a{
+    display: inline-block;
+}
+.navbar{
+    background-color:rgba(0, 0, 0, 0.493);
+    margin-bottom: -100px;
+}
+img{
+    display: inline-block;
+}
+a h5{
+    margin-left: 40px;
+    margin-right: 40px;
+    display: inline-block;
+}
+a button{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.back{
+    background-image: url("img/back1.png");
+    height: 700px;
+}
