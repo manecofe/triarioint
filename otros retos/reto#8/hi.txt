@@ -1,0 +1,15 @@
+Hola a todos, espero se encuentren bien.
+
+pues con respecto a el último reto de programación no encuentro manera práctica de
+poder hacerles saber a ustedes el funcionamiento de esados de un VDOM pero no me
+limitare a por lo menos no explicarselos, básicamente un VDOM es una metodología 
+que busca mejorar la eficiencia en los cambios que se realizan a una página web
+haciendo uso de los elementos en esta para poder cambiar solo las partes necesarias
+de la página, no como en el DOM normal que solo cambia la página entera, en la
+comparación de ambos métodos el DOM normal es como si para corregir una pintura
+a el pintor tirara su lienzo a la basura y empezara a pintar de nuevo, en cambio
+el virtual DOM es mas por asi decirlo corregir esa pequeña mancha en la pintura y
+solucionarlo así. en un principio el VDOM no hace tanto efecto pero en temas de 
+eficiencia a largo plazo con páginas grandes el avance es ventajoso. el VDOM hace
+uso sobre todo de la jerarquía de HTML para cambiar solo los componentes hijos y no
+el árbol entero.
